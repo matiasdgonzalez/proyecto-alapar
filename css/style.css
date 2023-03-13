@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* paleta de colores
+
+#d9d9d92f
+#0054a25b
+#EA7B00
+
+fuentes
+
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/img/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
+
+header h1{
+
+    font-weight: bolder;
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+nav{
+
+    background-color: #d9d9d92f;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+li{
+    
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.listaAnchor{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.listaAnchor a{
+    color: white;
+}
+
+
+.listaAnchor a:hover{
+
+    background-color: grey;
+    color: #0054a25b;    ;
+    border-radius: 0.2rem;
+
+}
+
+.divLogin a{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #0054a25b;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+
+.mainIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    font-size: 1.2rem;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item3";
+}
+
+
+.mainSection{
+    grid-area: item1;
+    background-color: #d9d9d92f;
+    width: fit-content;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.mainSection h2{
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.mainArticle {
+    grid-area:item2;
+    background-color: #0054a25b;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.mainArticle section{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.mainArticle section p{
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
+.mainArticle h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.sectionClases{
+    grid-area: item3;
+    background-color: #d9d9d92f;
+    margin: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    border-radius: 1rem;
+
+}
+
+.sectionClases h2{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    text-align:center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.sectionClases a{
+    color: white;
+    text-decoration: none;
+    background-color: #ea7d00b0;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    display:grid;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ea7d00da;
+    font-weight:bold;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+footer iframe{
+    width: 80%;
+    height: 80%;
+}
+
+footer p{
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.bodyQuienesSomos{
+    display:grid;
+}
+
+.mainQuienesSomos{ 
+    display:grid;
+    justify-self: center;
+    text-align: center;
+    background-color: #d9d9d92f;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: fit-content;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "item1 item1";
+    justify-items: center;
+}
+
+.mainQuienesSomos div:first-child{
+    grid-area:item1;
+}
+
+
+.mainQuienesSomos h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: bold;
+}
+
+.mainQuienesSomos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.profe {
+    color: black;
+    background-color: #ea7d0085;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+
+}
+
+.profe p{
+    text-align: center;
+    background-color: #d9d9d95e;
+}
+
+.profe img{
+    border-radius: 50%;
+}
+
+.turnosBody{
+    display:grid;
+    gap: 2rem;
+}
+
+.turnosMain{
+    display:grid;
+    justify-self: center;
+    background-color: #d9d9d95e;
+    width: 90%;
+    border-radius: 0.5rem;
+    text-align: center;
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "bloque1 bloque1"
+    "bloque2 bloque3";
+}
+
+.menuTurnos{
+    grid-area: bloque1;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.turnosMain a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+
+}
+
+.turnosInside{
+    display: flex;
+    grid-area:bloque2;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+.turnosInside p{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    height: fit-content;
+    text-align: center;
+}
+
+.anchorReserva{
+    grid-area:bloque3;
+}
+
+.anchorReserva a{
+    background-color: #0054a25b;
+    display: inline-block;
+    height: fit-content;
+}
+
+.mainInfoImp{
+    display:grid;
+}
+
+.mainInfoImp img{ 
+    width: 100%;
+}
+
+.mainInfoImp p{
+    text-decoration: underline;
+    color: white;
+}
+
