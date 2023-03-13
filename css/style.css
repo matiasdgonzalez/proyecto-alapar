@@ -339,8 +339,8 @@ footer a{
     display:grid;
 }
 
-.mainInfoImp img{ 
-    width: 100%;
+.videosIns{
+    background-image: url(../assets/img/instructivos.avif);
 }
 
 .mainInfoImp p{
