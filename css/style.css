@@ -337,13 +337,37 @@ footer a{
 
 .mainInfoImp{
     display:grid;
+    padding: 5rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.mainInfoImp section h2{
+    font-size: 3rem;
 }
 
 .videosIns{
-    background-image: url(../assets/img/instructivos.avif);
+    position: relative;
 }
 
-.mainInfoImp p{
+.videosIns div{
+    position: absolute;
+    top: calc(100% - 50% - 1.5rem);
+    left: 4rem;
+}
+
+.videosIns img{
+    filter: brightness(0.5);
+    
+}
+
+.videosIns a{
+    height: 100%;
+    width: 100%;
+}
+
+.mainInfoImp h2{
     text-decoration: underline;
     color: white;
 }
