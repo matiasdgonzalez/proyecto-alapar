@@ -119,7 +119,6 @@ li{
 .mainSection{
     grid-area: item1;
     background-color: #d9d9d92f;
-    width: fit-content;
     font-size: 2rem;
     text-align: center;
     border-radius: 1rem;
@@ -175,6 +174,7 @@ li{
 }
 
 .sectionClases h2{
+    color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     text-decoration: underline;
     text-align:center;
@@ -183,7 +183,7 @@ li{
 }
 
 .sectionClases a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     background-color: #ea7d00b0;
     border-radius: 1rem;
@@ -379,6 +379,10 @@ footer a{
     color: white;
 }
 
+iframe{
+    min-width:auto !important;
+}
+
 @media (max-width: 768px){
 
     header{
@@ -505,15 +509,19 @@ footer a{
     }
 
     footer iframe{
-        display: none;
+        display:none;
     }
+
 
 }
 
 @media (max-width: 320px){
 
-    .mainSection{
-        width:fit-content;
+    header a{
+        font-size: 0.8rem;
     }
+
+    
+
 }
 
