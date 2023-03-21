@@ -74,6 +74,7 @@ li{
 .listaAnchor{
     display:flex;
     flex-wrap: wrap;
+    justify-content:center;
 }
 
 .listaAnchor a{
@@ -392,7 +393,6 @@ iframe{
 
     header img{
         width:30%;
-        height:30%;
     }
 
     header h1{
@@ -415,9 +415,14 @@ iframe{
         border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
-        
+        width:fit-content;
     }
     
+    ul{
+        justify-content: center;
+        align-items:center;
+    }
+
     li{
         font-size: 1.5rem;
         padding: 0.5rem;
@@ -471,6 +476,19 @@ iframe{
     footer{
         font-size: 0.8rem;
     }
+
+    .infoQuienesSomos h2{
+        font-size: 1.8rem;
+    }
+    .infoQuienesSomos p{
+        font-size: 1.2rem;
+    }
+
+    .mainQuienesSomos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 468px){
@@ -513,15 +531,28 @@ iframe{
     }
 
 
+
+
 }
 
 @media (max-width: 320px){
 
     header a{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
-    
+    .infoQuienesSomos h2{
+        font-size: 1.5rem;
+    }
+    .infoQuienesSomos p{
+        font-size: 1.0rem;
+    }
 
+    .profe img{
+        width:80%;
+    }
+    .profe{
+        width:80%;
+    }
 }
 
