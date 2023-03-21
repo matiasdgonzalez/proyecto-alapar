@@ -83,7 +83,7 @@ li{
 
 .listaAnchor a:hover{
 
-    background-color: grey;
+    background-color: #ea7d007e;
     color: #0054a25b;    ;
     border-radius: 0.2rem;
 
@@ -379,3 +379,87 @@ footer a{
     color: white;
 }
 
+@media (max-width: 768px){
+
+    header{
+        width:100%;
+
+    }
+
+    header img{
+        width:30%;
+        height:30%;
+    }
+
+    header h1{
+
+        font-weight: bolder;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    
+    nav{
+        display: flex;
+        height:fit-content;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        background-color: #d9d9d92f;
+        width:fit-content;
+        height: fit-content;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        
+    }
+    
+    li{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .divLogin{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .divLogin a{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #0054a25b;
+        color: white;
+        font-size: 1.0rem;
+        padding: 0.2rem;
+        margin: 0.5rem;
+        width: fit-content;
+        border-radius: 0.5rem;
+        text-decoration: none;
+    }
+
+    .mainIndex{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .mainSection{
+        width: fit-content;
+        height: auto;
+    }
+
+    .mainSection blockquote{
+        width:50%;
+    }
+
+    .mainArticle h2{
+        font-size: 1.2rem;
+    }
+
+    .mainArticle p{
+        font-size: 1rem;
+    }
+}
