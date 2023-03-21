@@ -204,6 +204,8 @@ footer{
     bottom:0;
     left:0;
     right:0;
+    padding: 1rem;
+    margin-top:1rem;
 }
 
 footer iframe{
@@ -285,6 +287,7 @@ footer a{
 .turnosBody{
     display:grid;
     gap: 2rem;
+    position:relative;
 }
 
 .turnosMain{
@@ -293,12 +296,12 @@ footer a{
     background-color: #d9d9d95e;
     width: 90%;
     border-radius: 0.5rem;
-    text-align: center;
     grid-template-columns: 4fr;
     grid-template-rows: 1fr;
     grid-template-areas:
     "bloque1 bloque1"
     "bloque2 bloque3";
+    margin: 3rem;
 }
 
 .menuTurnos{
@@ -312,6 +315,7 @@ footer a{
     margin: 1rem;
     padding: 1rem;
     color: white;
+    text-align: center;
 
 }
 
@@ -340,7 +344,8 @@ footer a{
 
 .anchorReserva a{
     background-color: #0054a25b;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     height: fit-content;
 }
 
@@ -489,17 +494,89 @@ iframe{
         flex-direction: column;
         align-items: center;
     }
+
+    .turnosInside p{
+        font-size:1.2rem;
+    }
+
+    .anchorReserva a{
+        width:auto;
+        font-size: 1.2rem;
+        background-size: fit-content;
+    }
+}
+
+@media (max-width: 560px){
+
+    html{
+        height:100%;
+    }
+
+    header{
+        width: fit-content;
+    }
+
+    .turnosBody{
+        width:fit-content;
+        height:100%;
+    }
+
+    .turnosMain{
+        width: fit-content;
+        margin: 2rem;
+    }
+
+    .turnosInside{
+        width:100%;
+    }
+
+    .turnosInside p{
+        font-size:0.9rem;
+        width: 80%;
+    }
+
+    .menuTurnos ul{
+        width: 80%;
+    }
+
+    .anchorReserva a{
+        width:fit-content;
+        font-size: 0.8rem;
+        background-size: fit-content;
+    }
+
+    footer{
+
+        flex-direction: column;
+        gap: 0;
+        background-size: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        position:relative;
+
+    }
+
+    footer iframe{
+        display:none;
+
+    }
+
+
 }
 
 @media (max-width: 468px){
 
     html{
         width: 100%;
+        height:fit-content;
     }
 
-    body{
-        display: flex;
-        flex-direction: column;
+    .turnosBody{
+        width:fit-content;
+    }
+    .turnosMain{
+        width: auto;
+        margin: 2rem;
     }
 
     header h1{
@@ -520,19 +597,24 @@ iframe{
         flex-wrap: wrap;
     }
 
+    .turnosMain{
+        width:100%;
+    }
+
     footer{
-        flex-direction: column;
-        gap: 0;
-        background-size: 100%;
+        position:absolute;
     }
 
-    footer iframe{
-        display:none;
+    
+}
+
+@media (max-width: 350px){
+    
+
+    footer{
+        position:absolute;
+        bottom:0;
     }
-
-
-
-
 }
 
 @media (max-width: 320px){
@@ -554,5 +636,6 @@ iframe{
     .profe{
         width:80%;
     }
+
 }
 
