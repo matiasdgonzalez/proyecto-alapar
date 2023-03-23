@@ -167,7 +167,7 @@ li{
 .sectionClases{
     grid-area: item3;
     background-color: #d9d9d92f;
-    margin: 1rem;
+    margin: 3rem;
     padding: 2rem;
     width: fit-content;
     border-radius: 1rem;
@@ -223,6 +223,19 @@ footer a{
     color: black;
     display: inline-block;
     margin-left: 0.5rem;
+}
+
+.redSocial{
+    display:flex;
+    gap: 0.5rem;
+    align-items:center;
+    justify-content: center;
+}
+
+.textoRedSocial {
+    display:flex;
+    flex-direction: column;
+    gap: 0.2rem;
 }
 
 .bodyQuienesSomos{
@@ -520,12 +533,12 @@ iframe{
 
 @media (max-width: 560px){
 
-    html{
-        height:100%;
-    }
-
     header{
         width: fit-content;
+    }
+     
+    header img{ 
+        display:none;
     }
 
     .turnosBody{
@@ -557,21 +570,16 @@ iframe{
         background-size: fit-content;
     }
 
-    footer{
-
+    .sectionClases ul{
+        display:flex;
         flex-direction: column;
-        gap: 0;
-        background-size: 100%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        position:relative;
-
+        flex-wrap: wrap;
     }
 
     footer iframe{
         display:none;
-
     }
+
 
 
 }
@@ -603,11 +611,7 @@ iframe{
         display: none;
     }
 
-    .sectionClases ul{
-        display:flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+
 
     .turnosMain{
         width:100%;
