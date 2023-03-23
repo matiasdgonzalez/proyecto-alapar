@@ -355,6 +355,7 @@ footer a{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     place-items: center;
+    
 }
 
 .mainInfoImp section h2{
@@ -373,6 +374,7 @@ footer a{
 
 .videosIns img{
     filter: brightness(0.5);
+    width:100%;
 }
 
 .videosIns a{
@@ -387,6 +389,16 @@ footer a{
 
 iframe{
     min-width:auto !important;
+}
+
+@media (max-width: 1024px){
+    .mainInfoImp{
+        width: auto;
+    }
+
+    .mainInfoImp section h2{
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 768px){
@@ -572,7 +584,7 @@ iframe{
     }
 
     .turnosBody{
-        width:fit-content;
+        width:fit-content;  
     }
     .turnosMain{
         width: auto;
@@ -599,6 +611,10 @@ iframe{
 
     .turnosMain{
         width:100%;
+    }
+
+    .mainInfoImp section h2{
+        font-size:1.2rem;
     }
 
     footer{
