@@ -248,7 +248,7 @@ footer a{
     text-align: center;
     background-color: #d9d9d92f;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 3rem;
     padding: 1rem;
     width: fit-content;
     color:white;
@@ -422,7 +422,7 @@ iframe{
     }
 
     header img{
-        width:30%;
+        width:min-content;
     }
 
     header h1{
@@ -507,6 +507,10 @@ iframe{
         font-size: 0.8rem;
     }
 
+    .mainQuienesSomos{
+        margin-bottom: 3rem;
+    }
+
     .infoQuienesSomos h2{
         font-size: 1.8rem;
     }
@@ -586,16 +590,12 @@ iframe{
 
 @media (max-width: 468px){
 
-    html{
-        width: 100%;
-        height:fit-content;
-    }
 
     .turnosBody{
         width:fit-content;  
     }
     .turnosMain{
-        width: auto;
+        width: fit-content;
         margin: 2rem;
     }
 
@@ -612,9 +612,24 @@ iframe{
     }
 
 
+    .infoQuienesSomos{
+        width:auto;
+    }
+
+    .profe img{
+        width:80%;
+    }
+    .profe{
+        width:80%;
+    }
+
+    .turnosBody{
+        position:relative;
+        height: 100%;
+    }
 
     .turnosMain{
-        width:100%;
+        width:fit-content;
     }
 
     .mainInfoImp section h2{
@@ -623,6 +638,9 @@ iframe{
 
     footer{
         position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
     }
 
     
@@ -630,10 +648,13 @@ iframe{
 
 @media (max-width: 350px){
     
+    .divLogin a{
+        font-size: 0.8rem;
+
+    }
 
     footer{
         position:absolute;
-        bottom:0;
     }
 }
 
