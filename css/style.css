@@ -406,6 +406,19 @@ iframe{
     min-width:auto !important;
 }
 
+.mainContacto{
+    
+    display:flex;
+    flex-direction: column;
+    background-color: #0e90a1a1;
+    border-radius: 1rem;
+    font-size: 2rem;
+    height: 100%;
+}
+
+
+
+
 @media (max-width: 1024px){
     .mainInfoImp{
         width: auto;
@@ -586,6 +599,9 @@ iframe{
         display:none;
     }
 
+    .mainContacto{
+        font-size: 1.5rem;
+    }
 
 
 }
@@ -653,16 +669,21 @@ iframe{
 
     .divLogin{
         align-self:center;
+        justify-self: center;
         align-items: space-evenly;
     }
 
-   .listaAnchor{
-    flex-direction: column;
-   }
+    .listaAnchor{
+        flex-direction: column;
+    }
 
-   .menuTurnos a{
-    font-size: 1rem;
-   }
+    .menuTurnos a{
+        font-size: 1rem;
+    }
+
+    .mainContacto{
+        font-size: 1rem;
+    }
 
 }
 
