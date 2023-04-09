@@ -1,0 +1,88 @@
+.mainIndex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    font-size: 1.2rem;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item3";
+    height:100%;
+}
+
+
+.mainSection{
+    grid-area: item1;
+    background-color: #d9d9d92f;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        margin: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+
+.mainArticle {
+    grid-area:item2;
+    background-color: #0054a25b;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+
+    section{   
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-size: 1.8rem;
+
+        p{
+            padding: 0.2rem;
+            margin: 0.2rem;
+        };
+    }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+.sectionClases{
+    grid-area: item3;
+    background-color: #d9d9d92f;
+    margin: 3rem;
+    padding: 2rem;
+    width: fit-content;
+    border-radius: 1rem;
+
+    h2{
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+        text-align:center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    a{
+        color: whitesmoke;
+        text-decoration: none;
+        background-color: #ea7d00b0;
+        border-radius: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}

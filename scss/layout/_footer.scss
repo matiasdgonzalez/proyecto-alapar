@@ -1,0 +1,51 @@
+
+footer{
+    display:flex;
+    gap: 5rem;
+    background-color: #ea7d00da;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding: 1rem;
+    margin-top:1rem;
+
+    iframe{
+        width: 80%;
+        height: 80%;
+    }
+
+    p{
+        display: inline;
+        margin-left: 0.5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-left: 0.5rem;
+    }
+}
+
+
+.redSocial{
+    display:flex;
+    gap: 0.5rem;
+    align-items:center;
+    justify-content: center;
+}
+
+.textoRedSocial{
+    display:flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+iframe{
+    min-width:auto !important;
+}

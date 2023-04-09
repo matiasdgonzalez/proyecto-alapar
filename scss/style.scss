@@ -1,0 +1,22 @@
+// @import "utilities/variables";
+// @import "utilities/mixins";
+@import "base/reset";
+@import "layout/header";
+@import "layout/main-index";
+@import "layout/footer";
+@import "layout/main-quienes-somos";
+@import "layout/main-turnos";
+@import "layout/main-info-importante";
+@import "layout/main-contacto";
+
+
+
+// media query
+
+@import "layout/media/media-1024";
+@import "layout/media/media-768";
+@import "layout/media/media-560";
+@import "layout/media/media-468";
+@import "layout/media/media-385";
+@import "layout/media/media-350";
+@import "layout/media/media-320";

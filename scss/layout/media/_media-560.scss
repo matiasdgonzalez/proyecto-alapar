@@ -1,0 +1,56 @@
+@media (max-width: 560px){
+
+    header{
+        width: fit-content;
+        
+        img{
+            display:none;
+        }
+    }
+
+    
+
+    .turnosBody{
+        width:fit-content;
+        height:100%;
+    }
+
+    .turnosMain{
+        width: fit-content;
+        margin: 2rem;
+    }
+
+    .turnosInside{
+        width:100%;
+
+        p{
+            font-size:0.9rem;
+            width:80%;
+        }
+    }
+
+    .menuTurnos ul{
+        width: 80%;
+    }
+
+    .anchorReserva a{
+        width:fit-content;
+        font-size: 0.8rem;
+        background-size: fit-content;
+    }
+
+    .sectionClases ul{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer iframe{
+        display:none;
+    }
+
+    .mainContacto{
+        font-size: 1.5rem;
+    }
+}
+

@@ -1,0 +1,72 @@
+@media (max-width: 468px){
+
+    header{
+        
+        h1{
+            font-size: 2rem;
+        }
+
+        a{
+            font-size: 1.5rem;
+        }        
+    }
+    
+
+
+    .turnosBody{
+        width:fit-content;  
+    }
+    .turnosMain{
+        width: fit-content;
+        margin: 2rem;
+    }
+
+    .menuTurnos{
+
+        li{
+            a{
+                font-size:1rem;
+            }
+        }
+    }
+
+    .anchorReserva{
+        
+        li{
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+
+    .infoQuienesSomos{
+        width:auto;
+    }
+
+
+    .profe{
+        width:80%;
+
+        img{
+            width:80%;
+        }
+    }
+
+    .turnosMain{
+        width:fit-content;
+    }
+
+    .mainInfoImp section h2{
+        font-size:1.2rem;
+    }
+
+    footer{
+        position:absolute;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+
+    
+}

@@ -1,0 +1,39 @@
+
+.mainInfoImp{
+    display:grid;
+    padding: 5rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+    
+    section{
+
+        h2{
+            text-decoration: underline;
+            color: white;
+            font-size: 3rem;
+        }
+    }
+}
+
+
+.videosIns{
+    position: relative;
+
+    div{
+        position: absolute;
+        top: calc(100% - 50% - 1.5rem);
+        left: 4rem;
+    }
+
+    img{
+        filter: brightness(0.5);
+        width:100%;
+    }
+
+    a{ 
+        height: 100%;
+        width: 100%;
+    }
+}
+

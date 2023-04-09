@@ -1,0 +1,33 @@
+@media (max-width: 385px){
+
+    header{ 
+        width:100%;
+        justify-self:center;
+        align-items: space-around;
+
+        .listaAnchor a{
+            font-size: 1rem;
+        }
+    }
+
+    .divLogin{
+        align-self:center;
+        justify-self: center;
+        align-items: space-evenly;
+    }
+
+    .listaAnchor{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menuTurnos a{
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .mainContacto{
+        font-size: 1rem;
+    }
+
+}

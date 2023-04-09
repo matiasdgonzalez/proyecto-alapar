@@ -1,0 +1,58 @@
+.bodyQuienesSomos{
+    display:grid;
+}
+
+.mainQuienesSomos{ 
+    display:grid;
+    justify-self: center;
+    text-align: center;
+    background-color: #d9d9d92f;
+    border-radius: 1rem;
+    margin: 3rem;
+    padding: 1rem;
+    width: fit-content;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "item1 item1";
+    justify-items: center;
+
+    div:first-child{
+        grid-area:item1;
+    }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: underline;
+        font-size: bold;
+    }
+
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+}
+
+
+.profe {
+    color: black;
+    background-color: #ea7d0085;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    
+    p{
+        text-align: center;
+        background-color: #d9d9d95e;
+    }
+
+    img{
+        border-radius: 50%;
+    }
+}
+
