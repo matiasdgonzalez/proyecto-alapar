@@ -6,12 +6,12 @@
     display:grid;
     justify-self: center;
     text-align: center;
-    background-color: #d9d9d92f;
+    background-color: $background-principal;
     border-radius: 1rem;
     margin: 3rem;
     padding: 1rem;
     width: fit-content;
-    color:white;
+    color:$color-texto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10px;
@@ -39,8 +39,8 @@
 
 
 .profe {
-    color: black;
-    background-color: #ea7d0085;
+    color: $color-texto-sec;
+    background-color: $background-profe;
     margin: 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -48,7 +48,7 @@
     
     p{
         text-align: center;
-        background-color: #d9d9d95e;
+        background-color: $background-principal;
     }
 
     img{

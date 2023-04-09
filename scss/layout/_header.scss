@@ -3,7 +3,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    color: white;
+    color: $color-texto;
 
     h1 {
 
@@ -14,7 +14,7 @@ header {
 
     nav {
 
-        background-color: #d9d9d92f;
+        background-color: $background-principal;
         width: fit-content;
         height: fit-content;
         border-radius: 1rem;
@@ -41,9 +41,9 @@ header {
     justify-content: center;
 
     a{
-        color: white;
+        color: $color-texto;
         &:hover{
-            background-color: #ea7d007e;
+            background-color: $background-secundario;
             color: #0054a25b;
             border-radius: 0.2rem;
         }
@@ -56,8 +56,8 @@ header {
 .divLogin a{
     display: flex;
     justify-content: space-evenly;
-    background-color: #0054a25b;
-    color: white;
+    background-color: $background-terciario;
+    color: $color-texto;
     font-size: 1.5rem;
     padding: 0.2rem;
     margin: 0.5rem;

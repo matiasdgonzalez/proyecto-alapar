@@ -13,7 +13,7 @@
 
 .mainSection{
     grid-area: item1;
-    background-color: #d9d9d92f;
+    background-color: $background-principal;
     font-size: 2rem;
     text-align: center;
     border-radius: 1rem;
@@ -25,19 +25,19 @@
         margin: 1rem;
         text-decoration: underline;
         font-weight: bold;
-        color: white;
+        color: $color-texto;
     }
 }
 
 
 .mainArticle {
     grid-area:item2;
-    background-color: #0054a25b;
+    background-color: $background-terciario;
     border-radius: 1rem;
     width: fit-content;
     margin: 1rem;
     padding: 1rem;
-    color: white;
+    color: $color-texto;
 
     section{   
         padding: 0.5rem;
@@ -62,14 +62,14 @@
 
 .sectionClases{
     grid-area: item3;
-    background-color: #d9d9d92f;
+    background-color: $background-principal;
     margin: 3rem;
     padding: 2rem;
     width: fit-content;
     border-radius: 1rem;
 
     h2{
-        color: whitesmoke;
+        color: $color-texto;
         font-family: 'Poppins', sans-serif;
         text-decoration: underline;
         text-align:center;
@@ -78,9 +78,9 @@
     }
 
     a{
-        color: whitesmoke;
+        color: $color-texto;
         text-decoration: none;
-        background-color: #ea7d00b0;
+        background-color: $background-secundario;
         border-radius: 1rem;
         margin: 1rem;
         padding: 1rem;
