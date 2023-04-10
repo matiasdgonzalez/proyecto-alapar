@@ -3,6 +3,7 @@
     header{
         width:100%;
 
+
         img{
             width:min-content;
             height: fit-content;
@@ -20,8 +21,8 @@
     
     nav{
 
-        @include flex-2(wrap, center);
-        flex-direction: column;
+        @include flex-2(wrap, space-around);
+        flex-direction: row;
         align-content: center;
         justify-items: center;
         align-items: center;
@@ -30,6 +31,7 @@
         margin: 1rem;
         width:fit-content;
     }
+
     
     ul{
         justify-content: center;

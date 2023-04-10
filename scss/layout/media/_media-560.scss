@@ -1,12 +1,43 @@
 @media (max-width: 560px){
 
     header{
-        width: fit-content;
+        width: 100%;
+        justify-content: space-between;
         
         img{
-            display:none;
+            order:2;
+            width:40%;
         }
+
+        
+    nav .menu{
+        order:1;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
     }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 0;
+        text-align: center;
+
+    }
+    nav label{
+        display: inline-flex;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+    }
+
+    .divLogin{
+        order:3;
+    }
+}
 
     
 

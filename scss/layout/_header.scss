@@ -14,12 +14,17 @@ header {
     nav {
 
         background-color: $background-principal;
-        width: fit-content;
+        width: auto;
         height: fit-content;
         border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
 
+        
+    }
+
+    nav #toggle, nav label{
+        display: none;
     }
 
     li{
@@ -29,6 +34,7 @@ header {
         padding: 1rem;
         margin: 1rem;
     }
+
 
 
 }
@@ -49,6 +55,8 @@ header {
 
     
 }
+
+
 
 
 .divLogin a{
