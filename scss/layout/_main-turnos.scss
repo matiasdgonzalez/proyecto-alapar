@@ -5,13 +5,12 @@
 }
 
 .turnosMain{
-    display:grid;
+
+    @include grid(4fr,1fr,none);
     justify-self: center;
     background-color: $background-principal;
     width: 90%;
     border-radius: 0.5rem;
-    grid-template-columns: 4fr;
-    grid-template-rows: 1fr;
     grid-template-areas:
     "bloque1 bloque1"
     "bloque2 bloque3";
@@ -20,26 +19,26 @@
 
 .menuTurnos{
     grid-area: bloque1;
-    display:flex;
-    justify-content:space-evenly;
+    @include flex(space-evenly,none,none);
     list-style: none;
     margin: 1rem;
     padding: 1rem;
 
-    a{
-        text-decoration: none;
-        font-size: 2rem;
-        color: $color-texto;
-        text-align: center;
+    li{
+        a{
+            text-decoration: none;
+            font-size: 1.8rem;
+            color: $color-texto;
+            text-align: center;
+        }
     }
 }
 
 
 .turnosInside{
-    display: flex;
+    @include flex(space-around, none, none);
     grid-area:bloque2;
     flex-direction: column;
-    justify-content: space-around;
     background-color: $background-turnos;
     width: auto;
 
@@ -59,9 +58,9 @@
     grid-area:bloque3;
     
     li{
-        display: flex;
+
+        @include flex(space-around, none, none);
         flex-direction: row;
-        justify-content: space-around;
         list-style: none;
         
         a{  
@@ -73,8 +72,8 @@
             margin: auto;
             margin: 1rem;
             padding: 1rem;
-            color:white;
-            background-color: #0054a25b;
+            color: $color-texto;
+            background-color: $background-terciario;
             font-size: 2rem;
         }
     }

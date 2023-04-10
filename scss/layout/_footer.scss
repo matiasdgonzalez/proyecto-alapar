@@ -1,12 +1,10 @@
 
 footer{
-    display:flex;
-    gap: 5rem;
+
+    @include flex(center, center, 5rem);
+    justify-items: center;
     background-color: $background-secundario;
     font-weight:bold;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     position: absolute;
     bottom:0;
     left:0;
@@ -26,7 +24,7 @@ footer{
 
     a{
         text-decoration: none;
-        color: black;
+        color: $color-texto-sec;
         display: inline-block;
         margin-left: 0.5rem;
     }
@@ -34,11 +32,8 @@ footer{
 
 
 .redSocial{
-    display:flex;
-    gap: 0.5rem;
-    align-items:center;
-    justify-content: center;
-}
+    @include flex(center,center,0.5rem);
+    }
 
 .textoRedSocial{
     display:flex;

@@ -21,8 +21,10 @@ body {
 
 header {
   display: flex;
-  width: 100%;
   justify-content: space-around;
+  align-items: none;
+  gap: none;
+  width: 100%;
   color: whitesmoke; }
   header h1 {
     font-weight: bolder;
@@ -56,6 +58,8 @@ header {
 .divLogin a {
   display: flex;
   justify-content: space-evenly;
+  align-items: normal;
+  gap: 0;
   background-color: #0054a25b;
   color: whitesmoke;
   font-size: 1.5rem;
@@ -134,12 +138,12 @@ header {
 
 footer {
   display: flex;
-  gap: 5rem;
-  background-color: #ea7d007e;
-  font-weight: bold;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
   justify-items: center;
+  background-color: #ea7d007e;
+  font-weight: bold;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -160,9 +164,9 @@ footer {
 
 .redSocial {
   display: flex;
-  gap: 0.5rem;
+  justify-content: center;
   align-items: center;
-  justify-content: center; }
+  gap: 0.5rem; }
 
 .textoRedSocial {
   display: flex;
@@ -177,6 +181,9 @@ iframe {
 
 .mainQuienesSomos {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
   justify-self: center;
   text-align: center;
   background-color: #d9d9d92f;
@@ -185,11 +192,8 @@ iframe {
   padding: 1rem;
   width: fit-content;
   color: whitesmoke;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
   gap: 10px;
-  grid-template-areas: "item1 item1";
-  justify-items: center; }
+  grid-template-areas: "item1 item1"; }
   .mainQuienesSomos div:first-child {
     grid-area: item1; }
   .mainQuienesSomos h2 {
@@ -222,12 +226,13 @@ iframe {
 
 .turnosMain {
   display: grid;
+  grid-template-columns: 4fr;
+  grid-template-rows: 1fr;
+  justify-items: none;
   justify-self: center;
   background-color: #d9d9d92f;
   width: 90%;
   border-radius: 0.5rem;
-  grid-template-columns: 4fr;
-  grid-template-rows: 1fr;
   grid-template-areas: "bloque1 bloque1" "bloque2 bloque3";
   margin: 3rem; }
 
@@ -235,20 +240,24 @@ iframe {
   grid-area: bloque1;
   display: flex;
   justify-content: space-evenly;
+  align-items: none;
+  gap: none;
   list-style: none;
   margin: 1rem;
   padding: 1rem; }
-  .menuTurnos a {
+  .menuTurnos li a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: whitesmoke;
     text-align: center; }
 
 .turnosInside {
   display: flex;
+  justify-content: space-around;
+  align-items: none;
+  gap: none;
   grid-area: bloque2;
   flex-direction: column;
-  justify-content: space-around;
   background-color: #0000009f;
   width: auto; }
   .turnosInside p {
@@ -264,8 +273,10 @@ iframe {
   grid-area: bloque3; }
   .anchorReserva li {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: none;
+    gap: none;
+    flex-direction: row;
     list-style: none; }
     .anchorReserva li a {
       height: fit-content;
@@ -275,15 +286,16 @@ iframe {
       margin: auto;
       margin: 1rem;
       padding: 1rem;
-      color: white;
+      color: whitesmoke;
       background-color: #0054a25b;
       font-size: 2rem; }
 
 .mainInfoImp {
   display: grid;
-  padding: 5rem 0;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-items: none;
+  padding: 5rem 0;
   place-items: center; }
   .mainInfoImp section h2 {
     text-decoration: underline;
@@ -330,8 +342,8 @@ iframe {
   nav {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-content: center;
     justify-items: center;
     align-items: center;
@@ -351,8 +363,9 @@ iframe {
     flex-direction: column; }
     .divLogin a {
       display: flex;
-      flex-direction: row;
+      flex-wrap: nowrap;
       justify-content: space-evenly;
+      flex-direction: row;
       font-size: 1.0rem;
       padding: 0.2rem;
       margin: 0.5rem;
@@ -361,9 +374,11 @@ iframe {
       text-decoration: none; }
   .mainIndex {
     display: flex;
+    justify-content: none;
+    align-items: center;
+    gap: none;
     flex-direction: column;
-    justify-items: center;
-    align-items: center; }
+    justify-items: center; }
   .mainSection {
     width: fit-content;
     height: fit-content; }
@@ -377,10 +392,12 @@ iframe {
   footer {
     font-size: 0.8rem; }
   .mainQuienesSomos {
-    margin-bottom: 3rem;
     display: flex;
+    justify-content: none;
+    align-items: center;
+    gap: none;
     flex-direction: column;
-    align-items: center; } }
+    margin-bottom: 3rem; } }
 
 .infoQuienesSomos h2 {
   font-size: 1.8rem; }
@@ -420,8 +437,9 @@ iframe {
     background-size: fit-content; }
   .sectionClases ul {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: none;
+    flex-direction: column; }
   footer iframe {
     display: none; }
   .mainContacto {

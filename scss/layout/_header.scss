@@ -1,8 +1,7 @@
 header {
 
-    display: flex;
+    @include flex(space-around, none, none);
     width: 100%;
-    justify-content: space-around;
     color: $color-texto;
 
     h1 {
@@ -36,9 +35,8 @@ header {
 
 
 .listaAnchor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+    @include flex-2(wrap, center);
 
     a{
         color: $color-texto;
@@ -54,8 +52,8 @@ header {
 
 
 .divLogin a{
-    display: flex;
-    justify-content: space-evenly;
+
+    @include flex(space-evenly, normal, 0);
     background-color: $background-terciario;
     color: $color-texto;
     font-size: 1.5rem;

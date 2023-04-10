@@ -40,9 +40,10 @@
     }
 
     .sectionClases ul{
-        display:flex;
+
+        @include flex-2 (wrap, none);
         flex-direction: column;
-        flex-wrap: wrap;
+
     }
 
     footer iframe{

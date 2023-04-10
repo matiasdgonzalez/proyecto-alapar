@@ -2,8 +2,9 @@
     display:grid;
 }
 
-.mainQuienesSomos{ 
-    display:grid;
+.mainQuienesSomos { 
+
+    @include grid(1fr 1fr, 1fr, center);
     justify-self: center;
     text-align: center;
     background-color: $background-principal;
@@ -11,13 +12,11 @@
     margin: 3rem;
     padding: 1rem;
     width: fit-content;
-    color:$color-texto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    color: $color-texto;
     gap: 10px;
     grid-template-areas: 
     "item1 item1";
-    justify-items: center;
+
 
     div:first-child{
         grid-area:item1;
