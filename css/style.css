@@ -345,7 +345,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-items: center;
     align-items: center;

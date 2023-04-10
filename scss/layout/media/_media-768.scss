@@ -22,7 +22,7 @@
     nav{
 
         @include flex-2(wrap, space-around);
-        flex-direction: row;
+        flex-direction: column;
         align-content: center;
         justify-items: center;
         align-items: center;
