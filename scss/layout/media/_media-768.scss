@@ -1,26 +1,21 @@
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    header{
-        width:100%;
+    header {
+        width: 100%;
 
-
-        img{
-            width:min-content;
+        img {
+            width: min-content;
             height: fit-content;
         }
 
-        h1{
-
+        h1 {
             font-weight: bolder;
             font-size: 3rem;
             text-align: center;
         }
     }
 
-
-    
-    nav{
-
+    nav {
         @include flex-2(wrap, space-around);
         flex-direction: column;
         align-content: center;
@@ -29,26 +24,25 @@
         border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
-        width:fit-content;
+        width: fit-content;
     }
 
-    
-    ul{
+    ul {
         justify-content: center;
-        align-items:center;
+        align-items: center;
     }
 
-    li{
+    li {
         font-size: 1.5rem;
         padding: 0.5rem;
         margin: 0.5rem;
     }
 
-    .divLogin{
-        display:flex;
+    .divLogin {
+        display: flex;
         flex-direction: column;
 
-        a{  
+        a {
             @include flex-2(nowrap, space-evenly);
             flex-direction: row;
             font-size: 1.0rem;
@@ -60,64 +54,63 @@
         }
     }
 
-    .mainIndex{
-        @include flex(none,center,none);
+    .mainIndex {
+        @include flex(none, center, none);
         flex-direction: column;
         justify-items: center;
     }
 
-    .mainSection{
+    .mainSection {
         width: fit-content;
         height: fit-content;
 
-        blockquote{
-            width:50%;
+        blockquote {
+            width: 50%;
             height: 50%;
         }
     }
 
-    .mainArticle{
-        h2{
+    .mainArticle {
+        h2 {
             font-size: 1.2rem;
         }
-        
-        p{
+
+        p {
             font-size: 1rem;
         }
     }
 
-    footer{
+    footer {
         font-size: 0.8rem;
     }
 
-    .mainQuienesSomos{
-
+    .mainQuienesSomos {
         @include flex(none, center, none);
         flex-direction: column;
         margin-bottom: 3rem;
     }
+}
+
+.infoQuienesSomos {
+    h2 {
+        font-size: 1.8rem;
     }
 
-    .infoQuienesSomos{
-        h2{
-            font-size: 1.8rem;
-        }
-        
-        p{
+    p {
         font-size: 1.2rem;
-        }
     }
+}
 
-    .turnosInside {
-        p{
-            font-size:1.2rem;
-        }
+.turnosInside {
+    p {
+        font-size: 1.2rem;
     }
+}
 
-    .anchorReserva {
-        a{
-            width:auto;
-            font-size: 1.2rem;
-            background-size: fit-content;
-        }
+.anchorReserva {
+    a {
+        width: auto;
+        font-size: 1.2rem;
+        background-size: fit-content;
     }
+}

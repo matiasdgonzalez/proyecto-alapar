@@ -1,6 +1,5 @@
 
 footer{
-
     @include flex(center, center, 5rem);
     justify-items: center;
     background-color: $background-secundario;
@@ -29,7 +28,6 @@ footer{
         margin-left: 0.5rem;
     }
 }
-
 
 .redSocial{
     @include flex(center,center,0.5rem);

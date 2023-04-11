@@ -1,26 +1,21 @@
-header {
-
+header{
     @include flex(space-around, none, none);
     width: 100%;
     color: $color-texto;
 
     h1 {
-
         font-weight: bolder;
         font-size: 5rem;
         text-align: center;
     }
 
     nav {
-
         background-color: $background-principal;
         width: auto;
         height: fit-content;
         border-radius: 1rem;
         padding: 1rem;
         margin: 1rem;
-
-        
     }
 
     nav #toggle, nav label{
@@ -34,14 +29,9 @@ header {
         padding: 1rem;
         margin: 1rem;
     }
-
-
-
 }
 
-
 .listaAnchor {
-
     @include flex-2(wrap, center);
 
     a{
@@ -52,15 +42,9 @@ header {
             border-radius: 0.2rem;
         }
     }
-
-    
 }
 
-
-
-
 .divLogin a{
-
     @include flex(space-evenly, normal, 0);
     background-color: $background-terciario;
     color: $color-texto;

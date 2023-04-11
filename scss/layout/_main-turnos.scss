@@ -1,31 +1,30 @@
-.turnosBody{
-    display:grid;
+.turnosBody {
+    display: grid;
     gap: 2rem;
-    position:relative;
+    position: relative;
 }
 
-.turnosMain{
-
-    @include grid(4fr,1fr,none);
+.turnosMain {
+    @include grid(4fr, 1fr, none);
     justify-self: center;
     background-color: $background-principal;
     width: 90%;
     border-radius: 0.5rem;
     grid-template-areas:
-    "bloque1 bloque1"
-    "bloque2 bloque3";
+        "bloque1 bloque1"
+        "bloque2 bloque3";
     margin: 3rem;
 }
 
-.menuTurnos{
+.menuTurnos {
     grid-area: bloque1;
-    @include flex(space-evenly,none,none);
+    @include flex(space-evenly, none, none);
     list-style: none;
     margin: 1rem;
     padding: 1rem;
 
-    li{
-        a{
+    li {
+        a {
             text-decoration: none;
             font-size: 1.8rem;
             color: $color-texto;
@@ -35,14 +34,14 @@
 }
 
 
-.turnosInside{
+.turnosInside {
     @include flex(space-around, none, none);
-    grid-area:bloque2;
+    grid-area: bloque2;
     flex-direction: column;
     background-color: $background-turnos;
     width: auto;
 
-    p{
+    p {
         font-family: 'Poppins', sans-serif;
         font-size: 1.4rem;
         color: $color-texto;
@@ -51,20 +50,18 @@
         height: fit-content;
         text-align: center;
     }
-
 }
 
-.anchorReserva{
-    grid-area:bloque3;
-    
-    li{
+.anchorReserva {
+    grid-area: bloque3;
 
+    li {
         @include flex(space-around, none, none);
         flex-direction: row;
         list-style: none;
-        
-        a{  
-            
+
+        a {
+
             height: fit-content;
             width: 100%;
             text-align: center;
@@ -78,4 +75,3 @@
         }
     }
 }
-

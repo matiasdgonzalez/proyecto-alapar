@@ -1,92 +1,86 @@
-@media (max-width: 560px){
+@media (max-width: 560px) {
 
-    header{
+    header {
         width: 100%;
         justify-content: space-between;
-        
-        h1{
+
+        h1 {
             font-size: 1.2rem;
         }
-        
-        img{
-            order:2;
-            width:60%;
+
+        img {
+            order: 2;
+            width: 60%;
         }
 
-        
-    nav .menu{
-        order:1;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-    }
-    .menu ul{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0.5rem 0;
-        text-align: center;
+        nav .menu {
+            order: 1;
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+        }
 
-    }
-    nav label{
-        display: inline-flex;
-        color: white;
-        cursor: pointer;
+        .menu ul {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav label {
+            display: inline-flex;
+            color: white;
+            cursor: pointer;
+        }
+
+        nav #toggle:checked~.menu {
+            height: 100%;
+        }
+
+        .divLogin {
+            order: 3;
+        }
     }
 
-    nav #toggle:checked ~ .menu{
+    .turnosBody {
+        width: fit-content;
         height: 100%;
     }
 
-    .divLogin{
-        order:3;
-    }
-}
-
-    
-
-    .turnosBody{
-        width:fit-content;
-        height:100%;
-    }
-
-    .turnosMain{
+    .turnosMain {
         width: fit-content;
         margin: 2rem;
     }
 
-    .turnosInside{
-        width:100%;
+    .turnosInside {
+        width: 100%;
 
-        p{
-            font-size:0.9rem;
-            width:80%;
+        p {
+            font-size: 0.9rem;
+            width: 80%;
         }
     }
 
-    .menuTurnos ul{
+    .menuTurnos ul {
         width: 80%;
     }
 
-    .anchorReserva a{
-        width:fit-content;
+    .anchorReserva a {
+        width: fit-content;
         font-size: 0.8rem;
         background-size: fit-content;
     }
 
-    .sectionClases ul{
-
+    .sectionClases ul {
         @include flex-2 (wrap, none);
-        flex-direction: column;
+        flex-direction: column;    }
 
+    footer iframe {
+        display: none;
     }
 
-    footer iframe{
-        display:none;
-    }
-
-    .mainContacto{
+    .mainContacto {
         font-size: 1.5rem;
     }
 }
-

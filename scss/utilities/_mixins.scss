@@ -13,7 +13,6 @@
 }
 
 @mixin flex-2 ($wrap, $justify) {
-
     display:flex;
     flex-wrap: $wrap;
     justify-content: $justify;

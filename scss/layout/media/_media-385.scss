@@ -1,27 +1,26 @@
-@media (max-width: 385px){
+@media (max-width: 385px) {
 
-    header{ 
-        width:100%;
-        justify-self:center;
+    header {
+        width: 100%;
+        justify-self: center;
         align-items: space-around;
 
-        .listaAnchor a{
+        .listaAnchor a {
             font-size: 1rem;
         }
     }
 
-
-    .listaAnchor{
+    .listaAnchor {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .menuTurnos a{
+    .menuTurnos a {
         font-size: 1rem;
         margin: 0;
     }
 
-    .mainContacto{
+    .mainContacto {
         font-size: 1rem;
     }
 

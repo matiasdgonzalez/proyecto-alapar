@@ -1,72 +1,69 @@
-@media (max-width: 468px){
+@media (max-width: 468px) {
 
-    header{
-        
-        a{
+    header {
+
+        a {
             font-size: 1.5rem;
-        }        
+        }
 
-        img{
-            width:40%;
+        img {
+            width: 40%;
         }
     }
-    
 
 
-    .turnosBody{
-        width:fit-content;  
+    .turnosBody {
+        width: fit-content;
     }
-    .turnosMain{
+
+    .turnosMain {
         width: fit-content;
         margin: 2rem;
     }
 
-    .menuTurnos{
+    .menuTurnos {
 
-        li{
-            a{
-                font-size:1rem;
-            }
-        }
-    }
-
-    .anchorReserva{
-        
-        li{
-            a{
+        li {
+            a {
                 font-size: 1rem;
             }
         }
     }
-    
 
-    .infoQuienesSomos{
-        width:auto;
-    }
+    .anchorReserva {
 
-
-    .profe{
-        width:80%;
-
-        img{
-            width:80%;
+        li {
+            a {
+                font-size: 1rem;
+            }
         }
     }
 
-    .turnosMain{
-        width:fit-content;
+    .infoQuienesSomos {
+        width: auto;
     }
 
-    .mainInfoImp section h2{
-        font-size:1.2rem;
+    .profe {
+        width: 80%;
+
+        img {
+            width: 80%;
+        }
     }
 
-    footer{
-        position:absolute;
-        bottom:0;
-        left:0;
-        right:0;
+    .turnosMain {
+        width: fit-content;
     }
 
-    
+    .mainInfoImp section h2 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
 }

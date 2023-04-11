@@ -1,9 +1,8 @@
-.bodyQuienesSomos{
-    display:grid;
+.bodyQuienesSomos {
+    display: grid;
 }
 
-.mainQuienesSomos { 
-
+.mainQuienesSomos {
     @include grid(1fr 1fr, 1fr, center);
     justify-self: center;
     text-align: center;
@@ -14,15 +13,14 @@
     width: fit-content;
     color: $color-texto;
     gap: 10px;
-    grid-template-areas: 
-    "item1 item1";
+    grid-template-areas:
+        "item1 item1";
 
-
-    div:first-child{
-        grid-area:item1;
+    div:first-child {
+        grid-area: item1;
     }
 
-    h2{
+    h2 {
         font-family: 'Poppins', sans-serif;
         font-size: 2rem;
         text-align: center;
@@ -30,7 +28,7 @@
         font-size: bold;
     }
 
-    p{
+    p {
         font-family: 'Poppins', sans-serif;
         font-size: 1.5rem;
     }
@@ -44,14 +42,13 @@
     padding: 1rem;
     border-radius: 0.5rem;
     width: fit-content;
-    
-    p{
+
+    p {
         text-align: center;
         background-color: $background-principal;
     }
 
-    img{
+    img {
         border-radius: 50%;
     }
 }
-
