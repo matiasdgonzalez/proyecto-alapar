@@ -39,12 +39,15 @@
         margin: 0.5rem;
         font-size: 1.8rem;
 
+        .titulo {
+            text-decoration: underline;
+        }
+
         p {
+            text-align: center;
             padding: 0.2rem;
             margin: 0.2rem;
         }
-
-        ;
     }
 
     h2 {

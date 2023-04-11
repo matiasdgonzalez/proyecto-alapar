@@ -107,7 +107,10 @@ header {
     padding: 0.5rem;
     margin: 0.5rem;
     font-size: 1.8rem; }
+    .mainArticle section .titulo {
+      text-decoration: underline; }
     .mainArticle section p {
+      text-align: center;
       padding: 0.2rem;
       margin: 0.2rem; }
   .mainArticle h2 {
