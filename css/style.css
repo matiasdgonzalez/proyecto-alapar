@@ -525,6 +525,8 @@ iframe {
 @media (max-width: 320px) {
   header nav {
     width: 40%; }
+  header img {
+    width: 30%; }
   header a {
     font-size: 1.2rem; }
   .infoQuienesSomos h2 {
