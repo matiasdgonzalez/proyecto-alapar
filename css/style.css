@@ -403,6 +403,8 @@ iframe {
     gap: none;
     flex-direction: column;
     margin-bottom: 3rem; }
+    .mainQuienesSomos p {
+      font-size: 1.3rem; }
   .infoQuienesSomos h2 {
     font-size: 1.8rem; }
   .infoQuienesSomos p {

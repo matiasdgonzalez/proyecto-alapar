@@ -88,6 +88,10 @@
         @include flex(none, center, none);
         flex-direction: column;
         margin-bottom: 3rem;
+
+        p{
+            font-size: 1.3rem;
+        }
     }
 
     .infoQuienesSomos {
