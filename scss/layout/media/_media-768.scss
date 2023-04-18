@@ -89,28 +89,29 @@
         flex-direction: column;
         margin-bottom: 3rem;
     }
+
+    .infoQuienesSomos {
+        h2 {
+            font-size: 1.8rem;
+        }
+    
+        p {
+            font-size: 1.2rem;
+        }
+    }
+    
+    .turnosInside {
+        p {
+            font-size: 1.2rem;
+        }
+    }
+    
+    .anchorReserva {
+        a {
+            width: auto;
+            font-size: 1.2rem;
+            background-size: fit-content;
+        }
+    }
 }
 
-.infoQuienesSomos {
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        font-size: 1.2rem;
-    }
-}
-
-.turnosInside {
-    p {
-        font-size: 1.2rem;
-    }
-}
-
-.anchorReserva {
-    a {
-        width: auto;
-        font-size: 1.2rem;
-        background-size: fit-content;
-    }
-}

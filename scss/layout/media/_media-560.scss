@@ -2,19 +2,19 @@
 
     header {
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: row-reverse;
 
         h1 {
             font-size: 1.2rem;
         }
 
         img {
-            order: 2;
-            width: 60%;
+            display: none;
         }
 
         nav .menu {
-            order: 1;
+            order: 3;
             width: 100%;
             height: 0;
             overflow: hidden;
@@ -39,7 +39,15 @@
         }
 
         .divLogin {
-            order: 3;
+            order: 1;
+        }
+    }
+
+    .mainQuienesSomos{
+        div{
+            p{
+                font-size: 1rem;
+            }
         }
     }
 
@@ -62,14 +70,28 @@
         }
     }
 
-    .menuTurnos ul {
-        width: 80%;
+    .menuTurnos{
+        ul{
+            width: 80%;
+        }
+
+        li{
+            a{
+                font-size: 1.2rem;
+            }
+        }
+        
     }
 
-    .anchorReserva a {
+    .anchorReserva{
         width: fit-content;
-        font-size: 0.8rem;
         background-size: fit-content;
+        li{
+            a{
+                font-size: 0.8rem;
+            }
+        }
+        
     }
 
     .sectionClases ul {
