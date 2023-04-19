@@ -332,7 +332,9 @@ iframe {
   .mainInfoImp {
     width: auto; }
   .mainInfoImp section h2 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .profe img {
+    width: 80%; } }
 
 @media (max-width: 768px) {
   header {
@@ -471,10 +473,15 @@ iframe {
     flex-wrap: wrap;
     justify-content: none;
     flex-direction: column; }
+  .mainContacto {
+    font-size: 1.5rem; }
   footer iframe {
     display: none; }
-  .mainContacto {
-    font-size: 1.5rem; } }
+  footer div {
+    display: inline-flex;
+    font-size: 0.6rem; }
+    footer div img {
+      height: 25px; } }
 
 @media (max-width: 468px) {
   header a {
@@ -526,7 +533,9 @@ iframe {
   .divLogin a {
     font-size: 0.8rem; }
   footer {
-    position: absolute; } }
+    position: absolute;
+    font-size: 0.5rem;
+    justify-content: space-between; } }
 
 @media (max-width: 320px) {
   header nav {

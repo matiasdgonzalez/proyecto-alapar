@@ -98,11 +98,20 @@
         @include flex-2 (wrap, none);
         flex-direction: column;    }
 
+    .mainContacto {
+        font-size: 1.5rem;
+    }
+
     footer iframe {
         display: none;
     }
 
-    .mainContacto {
-        font-size: 1.5rem;
+    footer div{
+        display: inline-flex;
+        font-size: 0.6rem;
+
+        img{
+            height: 25px;
+        }
     }
 }
