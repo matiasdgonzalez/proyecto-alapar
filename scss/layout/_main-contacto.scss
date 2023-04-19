@@ -1,8 +1,14 @@
 .mainContacto{
     display:flex;
     flex-direction: column;
-    background-color: $background-contacto;
-    border-radius: 1rem;
+    justify-content: center;
     font-size: 2rem;
     height: 100%;
+    align-items: center;
+
+    form{
+        border-radius: 1rem;
+        background-color: $background-contacto;
+        width: 80%;
+    }
 }

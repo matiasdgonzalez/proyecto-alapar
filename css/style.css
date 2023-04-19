@@ -323,10 +323,14 @@ iframe {
 .mainContacto {
   display: flex;
   flex-direction: column;
-  background-color: #0e90a1a1;
-  border-radius: 1rem;
+  justify-content: center;
   font-size: 2rem;
-  height: 100%; }
+  height: 100%;
+  align-items: center; }
+  .mainContacto form {
+    border-radius: 1rem;
+    background-color: #0e90a1a1;
+    width: 80%; }
 
 @media (max-width: 1024px) {
   .mainInfoImp {
@@ -420,7 +424,9 @@ iframe {
   .anchorReserva a {
     width: auto;
     font-size: 1.2rem;
-    background-size: fit-content; } }
+    background-size: fit-content; }
+  .mainContacto form {
+    margin-bottom: 2rem; } }
 
 @media (max-width: 560px) {
   header {
